@@ -188,6 +188,16 @@ class WelcomeBanner(Static):
             else TStyle(foreground=TColor.parse(colors.primary), bold=True)
         )
 
+        # Enhanced Welcome Header (Claude Code Style)
+        if not ansi:
+            parts.append(("\n  ╭──────────────────────────────────────────────────────────╮\n", "dim"))
+            parts.append(("  │                                                          │\n", "dim"))
+            parts.append(("  │                 ", "dim"))
+            parts.append(("BLACK CAT", "bold " + colors.primary))
+            parts.append((" - Premium Agent Harness        │\n", "dim"))
+            parts.append(("  │                                                          │\n", "dim"))
+            parts.append(("  ╰──────────────────────────────────────────────────────────╯\n\n", "dim"))
+
         if not ansi and _is_editable_install():
             # Highlight local-install version tag with tool accent; art stays primary.
             dev_style = TStyle(foreground=TColor.parse(colors.tool), bold=True)

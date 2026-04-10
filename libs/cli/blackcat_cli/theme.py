@@ -37,97 +37,97 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# Brand palette — dark  (originally tokyonight-inspired, ProtoHello blue primary)
+# Brand palette — dark  (BlackCat - Noir/Gold Premium)
 # ---------------------------------------------------------------------------
-LC_DARK = "#11121D"
-"""Background — visible blue tint, distinguishable from pure black."""
+LC_DARK = "#0A0A0B"
+"""Background — deeper black for premium feel."""
 
-LC_CARD = "#1A1B2E"
-"""Surface / card — clearly elevated above background."""
+LC_CARD = "#141416"
+"""Surface / card — subtle elevation."""
 
-LC_BORDER_DK = "#25283B"
+LC_BORDER_DK = "#1F1F23"
 """Borders on dark backgrounds."""
 
-LC_BORDER_LT = "#3A3E57"
+LC_BORDER_LT = "#2D2D34"
 """Borders on lighter / hovered backgrounds."""
 
-LC_BODY = "#C0CAF5"
-"""Body text — high contrast on dark backgrounds."""
+LC_BODY = "#E1E1E6"
+"""Body text — clean off-white."""
 
-LC_BLUE = "#7AA2F7"
-"""Primary accent blue."""
+LC_BLUE = "#D4AF37"
+"""Primary accent - Metallic Gold for BlackCat branding."""
 
-LC_PURPLE = "#BB9AF7"
-"""Secondary accent / badges / labels."""
+LC_PURPLE = "#F9D77E"
+"""Secondary accent - Soft Gold."""
 
-LC_GREEN = "#9ECE6A"
-"""Success / positive indicator."""
+LC_GREEN = "#4ADE80"
+"""Success - Vibrant Green."""
 
-LC_AMBER = "#EB8B46"
-"""Warning / caution indicator."""
+LC_AMBER = "#FACC15"
+"""Warning - Yellow."""
 
-LC_PINK = "#F7768E"
-"""Error / destructive actions."""
+LC_PINK = "#F87171"
+"""Error - Soft Red."""
 
-LC_MUTED = "#545C7E"
+LC_MUTED = "#626269"
 """Muted / secondary text."""
 
-LC_GREEN_BG = "#1C2A38"
+LC_GREEN_BG = "#064E3B"
 """Subtle green-tinted background for diff additions."""
 
-LC_PINK_BG = "#2A1F32"
+LC_PINK_BG = "#450A0A"
 """Subtle pink-tinted background for diff removals / errors."""
 
-LC_PANEL = "#25283B"
+LC_PANEL = "#1F1F23"
 """Panel — differentiated section background (above surface)."""
 
-LC_SKILL = "#A78BFA"
-"""Skill invocation accent — border and header text."""
+LC_SKILL = LC_BLUE
+"""Skill invocation accent — Gold."""
 
-LC_SKILL_HOVER = "#C4B5FD"
-"""Skill invocation hover — lighter variant for interactive feedback."""
+LC_SKILL_HOVER = LC_PURPLE
+"""Skill invocation hover — Soft Gold."""
 
-LC_TOOL = LC_AMBER
-"""Tool call accent — border and header text."""
+LC_TOOL = LC_BLUE
+"""Tool call accent — Gold."""
 
-LC_TOOL_HOVER = "#FFCB91"
-"""Tool call hover — lighter variant for interactive feedback."""
+LC_TOOL_HOVER = LC_PURPLE
+"""Tool call hover — Soft Gold."""
 
 
 # ---------------------------------------------------------------------------
-# Brand palette — light
+# Brand palette — light (BlackCat - Clean Noir)
 # ---------------------------------------------------------------------------
-LC_LIGHT_BG = "#F5F5F7"
-"""Background — warm neutral white."""
+LC_LIGHT_BG = "#FFFFFF"
+"""Background — pure white."""
 
-LC_LIGHT_SURFACE = "#EAEAEE"
-"""Surface / card — slightly darker than background."""
+LC_LIGHT_SURFACE = "#F8F8F8"
+"""Surface / card — subtle grey."""
 
-LC_LIGHT_BORDER = "#C8CAD0"
+LC_LIGHT_BORDER = "#E0E0E0"
 """Borders on light backgrounds."""
 
-LC_LIGHT_BORDER_HVR = "#A0A4B0"
+LC_LIGHT_BORDER_HVR = "#BDBDBD"
 """Borders on hovered / focused surfaces."""
 
-LC_LIGHT_BODY = "#24283B"
-"""Body text — high contrast on light backgrounds."""
+LC_LIGHT_BODY = "#1A1A1A"
+"""Body text — high contrast deep grey."""
 
-LC_LIGHT_BLUE = "#2E5EAA"
-"""Primary accent blue (darkened for light bg contrast)."""
+LC_LIGHT_BLUE = "#000000"
+"""Primary accent - Pure Black for minimalist look."""
 
-LC_LIGHT_PURPLE = "#7C3AED"
-"""Secondary accent (darkened for light bg contrast)."""
+LC_LIGHT_PURPLE = "#424242"
+"""Secondary accent."""
 
-LC_LIGHT_GREEN = "#3A7D0A"
-"""Success / positive (darkened for light bg contrast)."""
+LC_LIGHT_GREEN = "#15803D"
+"""Success - Dark Green."""
 
-LC_LIGHT_AMBER = "#B45309"
-"""Warning / caution (darkened for light bg contrast)."""
+LC_LIGHT_AMBER = "#A16207"
+"""Warning - Dark Yellow."""
 
-LC_LIGHT_PINK = "#BE185D"
-"""Error / destructive (darkened for light bg contrast)."""
+LC_LIGHT_PINK = "#B91C1C"
+"""Error - Dark Red."""
 
-LC_LIGHT_MUTED = "#6B7280"
+LC_LIGHT_MUTED = "#737373"
 """Muted / secondary text on light backgrounds."""
 
 LC_LIGHT_GREEN_BG = "#DCFCE7"

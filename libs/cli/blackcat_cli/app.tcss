@@ -20,6 +20,21 @@ Screen {
     background: $background;
 }
 
+/* Claude-like input styling */
+#input-area {
+    border-top: solid $surface;
+    background: $background;
+    padding: 0 1;
+}
+
+/* Scrollbar styling */
+* {
+    scrollbar-size: 1 1;
+    scrollbar-color: $primary 20%;
+    scrollbar-color-hover: $primary 40%;
+    scrollbar-color-active: $primary;
+}
+
 /* Welcome banner */
 #welcome-banner {
     height: auto;
