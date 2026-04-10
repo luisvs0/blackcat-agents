@@ -1,6 +1,6 @@
 """Version information and lightweight constants for `blackcat-cli`."""
 
-__version__ = "0.0.36"  # x-release-please-version
+__version__ = "0.0.37"  # x-release-please-version
 
 DOCS_URL = "https://docs.protohello.com/oss/python/blackcat/cli"
 """URL for `blackcat-cli` documentation."""

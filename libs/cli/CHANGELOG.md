@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.37](https://github.com/luisvs0/blackcat-agents/compare/blackcat-cli==0.0.36...blackcat-cli==0.0.37) (2026-04-10)
+
+
+### Features
+
+* **repo:** initial commit for BlackCat project ([e6f482a](https://github.com/luisvs0/blackcat-agents/commit/e6f482a52630859f2029a0794a11c17368bbe1a7))
+
 ## [0.0.36](https://github.com/protohello-ai/blackcat/compare/blackcat-cli==0.0.35...blackcat-cli==0.0.36) (2026-04-09)
 
 ### Features
