@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "blackcat-acp"
-version = "0.0.5"
+version = "0.0.6"
 description = "Agent Client Protocol integration for Black Cat"
 readme = "README.md"
 requires-python = ">=3.11"

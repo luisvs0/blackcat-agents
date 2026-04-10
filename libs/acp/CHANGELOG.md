@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.6](https://github.com/luisvs0/blackcat-agents/compare/blackcat-acp==0.0.5...blackcat-acp==0.0.6) (2026-04-10)
+
+
+### Features
+
+* **repo:** initial commit for BlackCat project ([e6f482a](https://github.com/luisvs0/blackcat-agents/commit/e6f482a52630859f2029a0794a11c17368bbe1a7))
+
+## Changelog
+
 ---
 
 ## Prior Releases
