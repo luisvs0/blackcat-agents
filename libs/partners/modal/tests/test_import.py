@@ -1,0 +1,5 @@
+import protohello_modal
+
+
+def test_import_modal() -> None:
+    assert protohello_modal is not None

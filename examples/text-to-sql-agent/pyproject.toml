@@ -1,0 +1,27 @@
+[project]
+name = "text2sql-blackcat"
+version = "0.1.0"
+description = "A natural language to SQL query agent powered by ProtoHello's Black Cat framework and Claude Sonnet 4.5"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "blackcat>=0.3.5",
+    "protohello>=1.2.3",
+    "protohello-anthropic>=1.3.1",
+    "protohello-community>=0.3.0",
+    "langgraph>=1.0.6",
+    "sqlalchemy>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "tavily-python>=0.5.0",
+    "rich>=13.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/protohello-ai/blackcat/tree/main/examples/text-to-sql-agent"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"

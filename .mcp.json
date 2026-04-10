@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "docs-protohello": {
+      "type": "http",
+      "url": "https://docs.protohello.com/mcp"
+    },
+    "reference-protohello": {
+      "type": "http",
+      "url": "https://reference.protohello.com/mcp"
+    }
+  }
+}

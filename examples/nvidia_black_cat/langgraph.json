@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "blackcat": "./src/agent.py:agent"
+  },
+  "env": ".env"
+}
